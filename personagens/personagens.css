@@ -29,18 +29,21 @@ h1 {
 .personagens {
     display: flex;
    flex-direction:row;
-   justify-content: center;
-   align-items: center;
+   justify-content: space-between;
+   max-width: 1000px; 
 }
 
-
-img {
+.personagens>div {
     display: flex;
-    flex-direction: column;
-    
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1 1 600px; 
 }
+
+
+    
 img {
-    width: 480px;
+    width: 280px;
 }
 
 
