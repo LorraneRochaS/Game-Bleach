@@ -21,7 +21,7 @@ header {
 }
 
 body {
-    background-image: url(../imagens/fundo2.jpg);
+    background-image: url(../../imagens/fundo2.jpg);
     
 }
 
@@ -85,17 +85,39 @@ img {
     margin: 50px; 
         
 }
+.Orihime>p{
+    margin: 20px;
+}
 
 h2 {
     font-family: 'Press Start 2P';
     color: black;
-    font-size: 20px;
+    font-size: 30px;
 
 }
 
 p{
     font-family: 'Pacifico';
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    width: 420px;
+    height: 55px;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px;
+    transition: transform 200ms  ease-in;
+    font-family: 'Press Start 2P';
     font-size: 20px;
+    margin-top: 10px
+}
+
+footer > p{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 50px;
 }
 /* body {
     display: flex;
