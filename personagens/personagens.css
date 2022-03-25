@@ -5,45 +5,147 @@ p {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    font-size: 1.2rem;
-    font-family: 'Pacifico';
+
+}
+
+bory {
+    display: flex;
+       align-items: center;
+        
+   
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
 
 body {
-    margin-bottom: 100px;
-    width: 100%;
-    height: 100%;
-    background-color: #A1CDF1;
     background-image: url(../imagens/fundo2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 
 h1 {
     font-family: 'Press Start 2P';
     color: yellow;
     font-size: 50px;
-    text-align: center;
+    }
 
-}
 .personagens {
+    width: 1000px;
+    height: 800px;
+    
     display: flex;
-   flex-direction:row;
-   justify-content: space-between;
-   max-width: 1000px; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+}
+
+
+
+img {
+    display: flex;
+    width: 280px;
+    height: 522px;
+    align-items: center;
+    object-fit: cover;
 }
 
 .personagens>div {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex: 1 1 600px; 
+    flex-direction: column;
+    align-items: center;
 }
+
+.Ichigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px; 
+    
+
+}
+
+
+.Rukia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px; 
+}
+
+.Orihime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px; 
+        
+}
+
+h2 {
+    font-family: 'Press Start 2P';
+    color: black;
+    font-size: 20px;
+
+}
+
+p{
+    font-family: 'Pacifico';
+    font-size: 20px;
+}
+/* body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #A1CDF1;
+    background-image: url(../imagens/fundo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    background-color: blueviolet;
+   display: flex;
+   
+}
+h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    color: yellow;
+    font-size: 50px;
+    
+
+}
+.personagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction:row;
+   
+   
+}
+
+.personagens>div {
+    display: flex;
+    align-items: center;
+}
+
+    
 
 
     
 img {
+    display: flex;
+    align-items: center;
+    
     width: 280px;
 }
-
-
+ */

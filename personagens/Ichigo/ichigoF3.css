@@ -1,0 +1,79 @@
+bory,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Pacifico';
+
+}
+
+body {
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #A1CDF1;
+    background-image: url(./imagens/ichigo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.texto {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 40px;
+   
+
+}
+
+p {
+    font-size: 30px;
+    background-color: #A1CDF1;
+    margin-top: 80px;
+    padding: 20px;
+
+}
+
+ul {
+    background-color: #A1CDF1;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+button {
+    width: 420px;
+    height: 55px;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px;
+    transition: transform 200ms ease-in;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    margin-top: 30px
+}
+
+a {
+    text-decoration: none;
+
+}
