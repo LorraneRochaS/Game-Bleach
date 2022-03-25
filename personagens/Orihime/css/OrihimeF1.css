@@ -3,16 +3,18 @@ ul,
 li,
 p {
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
     list-style: none;
     font-size: 1.2rem;
     font-family: 'Pacifico';
-}body {
+
+}
+body {
     margin-bottom: 100px;
-    width: 100%;
+    width: 100%; 
     height: 100%;
     background-color: #A1CDF1;
-    background-image: url(../imagens/ichigo5.jpg);
+    background-image: url(../imagens/orihime1.jpg);
     background-size: cover;
     background-repeat: no-repeat
 }
@@ -54,13 +56,14 @@ p{
     background-color: #A1CDF1;
     opacity: 0.5;
     border-radius: 10px;
+    
 
 }
 
 ul {
     background-color: #A1CDF1;
     text-align: center;
-    font-size: 25px; 
+    font-size: 35px; 
     opacity: 0.5;
     border-radius: 10px;
 }

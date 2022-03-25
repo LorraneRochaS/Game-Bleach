@@ -2,7 +2,7 @@
 function Responderprompt(params) {
 
     var resposta = prompt('Digite  sua resposta');
-    var contador = 3;
+    var contador = 2;
     while (contador >= 1) {
         if (resposta == 'b') {
             alert('Parabés! Resposta correta')

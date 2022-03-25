@@ -18,4 +18,4 @@ function Responderprompt(params) {
         window.location.assign('gameover.html')
 
     }
-}
+} 
